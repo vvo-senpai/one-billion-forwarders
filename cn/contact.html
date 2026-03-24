@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>联系中国货运代理 | 报价、清关、FBA – One Billion Forwarders</title>
+  <meta name="description" content="向位于中国广州的货运代理申请报价：FCL/LCL海运、空运、清关、亚马逊FBA物流、仓储与配送、货运保险及供应商开发。快速回复。" />
+  <link rel="stylesheet" href="../assets/styles.css" />
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LogisticsBusiness",
+      "name": "One Billion Forwarders",
+      "description": "位于广州的货运代理，专注于海运（FCL/LCL）、空运、清关、亚马逊FBA及供应商开发。",
+      "areaServed": "Worldwide",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Guangzhou",
+        "addressCountry": "CN"
+      }
+    },
+    {
+      "@type": "ContactPage",
+      "name": "联系与报价申请",
+      "about": {
+        "@type": "Organization",
+        "name": "One Billion Forwarders"
+      },
+      "inLanguage": "zh"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+  <div id="header-placeholder"></div>
+
+  <main class="container">
+    <section class="hero">
+      <h1 class="h1" style="margin-bottom:10px;">联系与报价申请</h1>
+      <p class="sub">请描述您的需求（货运或供应商开发）。我们会尽快回复并为您提供合适的解决方案。</p>
+    </section>
+
+    <section class="section split">
+      <div class="card pad">
+        <h2>表单</h2>
+
+        <form id="quoteForm" class="form" action="../form-handler.php" method="POST">
+          <div class="field">
+            <label>姓名 / 公司名称</label>
+            <input name="name" placeholder="例如：ABC Trading" required />
+          </div>
+          <div class="field">
+            <label>电子邮箱 *</label>
+            <input name="email" type="email" placeholder="例如：contact@..." required />
+          </div>
+
+          <div class="field">
+            <label>WhatsApp（可选）</label>
+            <input name="whatsapp" placeholder="+86 ..." />
+          </div>
+          <div class="field">
+            <label>服务类型</label>
+            <select name="service">
+              <option>货运</option>
+              <option>供应商开发</option>
+              <option>货运 + 供应商开发</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>运输方式</label>
+            <select name="shipment">
+              <option>我暂时不确定</option>
+              <option>海运</option>
+              <option>空运</option>
+              <option>陆运</option>
+            </select>
+          </div>
+          <div class="field">
+            <label>模式（如为海运）</label>
+            <select name="mode">
+              <option>不适用</option>
+              <option>FCL（整柜）</option>
+              <option>LCL（拼箱）</option>
+            </select>
+          </div>
+
+          <div class="field full">
+            <label>留言</label>
+            <textarea name="message" required placeholder="请尽量说明：
+• 目的地（城市/国家）
+• 货物类型与数量
+• 重量/体积（如已知）
+• Incoterm（如已知）
+• 期望时间（如有紧急需求）
+• 其他有用信息（货值、限制条件、FBA等）"></textarea>
+          </div>
+
+          <div class="full">
+            <button class="btn primary" type="submit">发送请求</button>
+            <div class="note">您的请求将通过我们的系统直接发送，我们会尽快回复您。</div>
+          </div>
+        </form>
+      </div>
+
+      <div class="card pad">
+        <h2>直接联系</h2>
+        <p class="small" style="margin:10px 0 0;">
+          邮箱：<a href="mailto:contact@obforwarders.com">contact@obforwarders.com</a><br/>
+          地点：广州，中国
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="../assets/script.js"></script>
+</body>
+</html>
